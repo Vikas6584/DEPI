@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mental Health Chat Bot</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="header">Mental Health Chat Bot</div>
+    <div class="pictures-container">
+      <img src="static\image1.jpg" alt="Image 1" class="picture" />
+      <img src="static\image2.jpg" alt="Image 2" class="picture" />
+      <img src="static\image3.jpg" alt="Image 3" class="picture" />
+    </div>
+    <div class="chat-container">
+      <div class="chat-box">
+        <div class="message">
+          <img
+            src="static\chatbot.jpg"
+            alt="Chatbot Avatar"
+            class="chatbot-image"
+          />
+          <p>Hey! What's bothering you buddy?</p>
+        </div>
+        <div class="message">
+          <p>Feel free to share your thoughts or concerns:</p>
+          <form id="chat-form" action="{{ url_for('chatbot') }}" method="post">
+            <div class="input-container">
+              <input
+                type="text"
+                id="user_input"
+                name="user_input"
+                placeholder="Type your message"
+                required="required"
+              />
+              <button type="submit" value="submit" class="send-button" >&#x27A4;</button>
+            </div>
+          </form>
+          <div id="chat-box"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+  </body>
+</html>
