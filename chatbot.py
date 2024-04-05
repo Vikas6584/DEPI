@@ -117,4 +117,4 @@ def chatbot():
 if __name__ == '__main__':
     print("Welcome to (chatbot name) ")
     app.debug = True
-    app.run(debug=False,host='0.0.0.0')
+    app.run()
