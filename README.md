@@ -71,3 +71,6 @@ That's it! You should now have the Flask application up and running locally on y
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Feel free to use and share the content with proper attribution.
+
+![image](https://github.com/Vikas6584/DEPI/assets/69501909/34563fd9-37c1-4d2b-bb9e-c263c1fa9177)
+
