@@ -36,6 +36,38 @@ If you or someone you know is in crisis or experiencing thoughts of self-harm or
 
 Remember, reaching out for help is a sign of strength, and there are people who care about your well-being.
 
+## How to Run the Project
+
+Follow these steps to run the Flask application:
+
+1. **Clone the Repository:**
+   ```
+   git clone <repository-url>
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```
+   cd <project-directory>
+   ```
+
+3. **Install Dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. **Set Environment Variables (if necessary):**
+   If your application requires environment variables, make sure to set them accordingly. You can typically do this by creating a `.env` file in the project directory and adding your variables in the format `KEY=VALUE`.
+
+5. **Run the Flask Application:**
+   ```
+   python app.py
+   ```
+
+6. **Access the Application:**
+   Once the Flask application is running, you can access it by navigating to `http://localhost:5000` in your web browser.
+
+That's it! You should now have the Flask application up and running locally on your machine.
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Feel free to use and share the content with proper attribution.
